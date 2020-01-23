@@ -1,0 +1,127 @@
+html {
+	  position: relative;
+	    min-height: 100%;
+    }
+    body {
+	      margin-bottom: 60px; /* Margin bottom by footer height */
+      }
+      .footer {
+	        position: absolute;
+		  bottom: 0;
+		    width: 80%;
+		      height: 40px; /* Set the fixed height of the footer here */
+		        line-height: 40px; /* Vertically center the text there */
+		  }
+
+ul.nav li a, ul.nav li a:visited {
+	    color: #fff !important;
+	    font-weight: bold;
+	    font-family: 'Fira Code', monospace;
+    }
+
+    ul.nav li a:hover, ul.nav li a:active {
+	        color: #146b00 !important;
+	    font-weight: bold;
+	    font-family: 'Fira Code', monospace;
+	}
+
+	ul.nav li.active a {
+		    color: #146b00 !important;
+	    font-weight: bold;
+	    font-family: 'Fira Code', monospace;
+	    }
+	    table.table{font-family: 'Cute Font', sans-serif;font-size:32px;text-shadow: 2px 2px #333333;}
+
+
+
+	    .borderless td, .borderless th {
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;text-shadow: 2px 2px #333333;
+		        border: none;
+			height: 50px;
+			padding-right: 5em;
+		}
+
+
+
+
+/* Style inputs, select elements and textareas */
+		input[type=text], input[type=password], select, textarea{
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;
+			  width: 90%;
+			    padding: 12px;
+			      border: 1px solid #ccc;
+			        border-radius: 4px;
+				  box-sizing: border-box;
+				    resize: vertical;
+			    }
+
+			    /* Style the label to display next to the inputs */
+			    label {
+				      padding: 12px 12px 12px 0;
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;text-shadow: 2px 2px #333333;
+				        display: inline-block;
+				}
+
+				/* Style the submit button */
+				input[type=submit] {
+					  background-color: #feb0c6;
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;text-shadow: 2px 2px #333333;
+					    color: white;
+					      padding: 12px 20px;
+					        border: none;
+						  border-radius: 4px;
+						    cursor: pointer;
+						      float: left;
+						      margin: auto;
+						      width:20%;
+					      }
+
+					      /* Style the container */
+					      .container {
+						        border-radius: 5px;
+		    	font-family: 'Cute Font', sans-serif;
+							 /* background-color: #f2f2f2;*/
+							    padding: 20px;
+						    }
+
+						    /* Floating column for labels: 25% width */
+						    .col-25 {
+							      float: left;
+							        width: 25%;
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;
+			text-align:right;
+								  margin-top: 6px;
+							  }
+
+							  /* Floating column for inputs: 75% width */
+							  .col-75 {
+								    float: left;
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;
+								        margin-top: 6px;
+									width:75%;
+								}
+
+								/* Clear floats after the columns */
+								.row:after {
+									  content: "";
+		    	font-family: 'Cute Font', sans-serif;font-size:32px;
+									    display: table;
+									      clear: both;
+								      }
+.footer{ font-family: 'Fira Code', monospace; font-size:10px; text-align:center; position:fixed; bottom:0;width:100%;}
+.footer a{
+	                    color: #146b00 !important;
+			                font-weight: bold;
+					            font-family: 'Fira Code', monospace;}
+form {width:500px; margin:auto;}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	form{width:100%;margin: auto;}
+        .col-25, .col-75, input[type=submit] {
+	    width: 100%;
+            font-family: 'Cute Font', sans-serif;font-size:32px;
+            margin-top: 0;}
+            input[type=text], select, textarea{ width:100% ;}
+    }
